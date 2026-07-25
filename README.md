@@ -2,6 +2,11 @@
 
 Framework de automação de testes End-to-End desenvolvido com **Cypress** e **JavaScript**, seguindo boas práticas de automação para aplicações Web.
 
+![Cypress](https://img.shields.io/badge/Cypress-Testing-brightgreen)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+
+![Node](https://img.shields.io/badge/Node.js-18-green)
 ---
 
 ## Objetivo
@@ -36,11 +41,21 @@ cypress/
 
 ## Funcionalidades
 
-- Testes End-to-End
-- Validação de fluxos de negócio
-- Organização por cenários
-- Reutilização de comandos
-- Estrutura escalável
+✔ Login
+
+✔ Cadastro
+
+✔ Busca de cursos
+
+✔ Busca de fotos
+
+✔ Testes de API
+
+✔ Validações de formulário
+
+✔ Massa de dados
+
+✔ Interceptação de requisições
 
 ---
 
