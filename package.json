@@ -1,15 +1,16 @@
 {
-    "name": "primeiro-projeto",
-    "version": "1.0.0",
-    "description": "Primeiro projeto com Cypress",
-    "main": "index.js",
-    "scripts": {
-      "test": "npx cypress open"
-    },
-    "author": "Luana Bastos",
-    "license": "ISC",
-    "devDependencies": {
-      "cypress": "^9.1.1",
-      "mochawesome": "^7.0.1"
-    }
+  "name": "qa-cypress-framework",
+  "version": "1.0.0",
+  "description": "Automação de testes Web e API com Cypress e JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:run": "npx cypress run"
+  },
+  "author": "Luana do Amaral Bastos",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "mochawesome": "^7.0.1"
   }
+}
