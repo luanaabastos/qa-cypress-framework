@@ -3,11 +3,10 @@
 
 Framework de automação de testes End-to-End desenvolvido com **Cypress** e **JavaScript**, seguindo boas práticas de automação para aplicações Web.
 
-![Cypress](https://img.shields.io/badge/Cypress-Testing-brightgreen)
-
+![Cypress](https://img.shields.io/badge/Cypress-9.1.1-brightgreen)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-
-![Node](https://img.shields.io/badge/Node.js-18-green)
+![Node.js](https://img.shields.io/badge/Node.js-Runtime-green)
+![Mochawesome](https://img.shields.io/badge/Mochawesome-7.0.1-blue)
 
 <img width="1904" height="947" alt="Captura de tela 2026-07-25 131437" src="https://github.com/user-attachments/assets/8d7aabbe-64df-4db9-b210-e5a54ffd7f9b" />
 
