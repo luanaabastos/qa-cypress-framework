@@ -30,37 +30,56 @@ O objetivo é demonstrar a organização de um projeto de automação, reutiliza
 
 ---
 
-## Estrutura do Projeto
+## Estrutura do projeto
 
 ```text
-cypress/
- ├── fixtures
- ├── integration
- ├── support
- ├── commands
- └── pages
+projeto-cypress/
+└── cypress/
+    ├── fixtures/
+    │   ├── example.json
+    │   └── usuarios.json
+    ├── integration/
+    │   └── 3-ALURAPIC/
+    │       ├── alura-busca.spec.js
+    │       ├── alurapic.spec.js
+    │       ├── api-alurapic.spec.js
+    │       ├── cadastro.spec.js
+    │       └── login.spec.js
+    ├── plugins/
+    ├── report/
+    └── support/
 ```
 
 ---
 
-## Funcionalidades
+## Cenários automatizados
 
-✔ Login
+### Testes de interface
 
-✔ Cadastro
+- Validação da tela inicial
+- Login com usuário válido
+- Login com usuário inválido
+- Cadastro de usuários
+- Validação de campos obrigatórios
+- Validação de e-mail inválido
+- Validação de senha com tamanho mínimo
+- Busca de cursos
 
-✔ Busca de cursos
+### Testes de API
 
-✔ Busca de fotos
+- Consulta de fotos via requisição GET
+- Validação do status da resposta
+- Validação do corpo da resposta
+- Validação do tempo de resposta
+- Autenticação via requisição POST
 
-✔ Testes de API
+### Recursos utilizados
 
-✔ Validações de formulário
-
-✔ Massa de dados
-
-✔ Interceptação de requisições
-
+- Fixtures para massa de dados
+- Custom commands
+- Hooks com `beforeEach`
+- Interceptação de requisições com `cy.intercept()`
+- Relatórios com Mochawesome
 ---
 
 ## Como executar
@@ -87,11 +106,11 @@ npx cypress run
 
 ## Melhorias futuras
 
-- GitHub Actions
-- Mochawesome Reports
-- Allure Reports
-- Page Object Model
-- Integração contínua (CI/CD)
+- Atualização para uma versão mais recente do Cypress
+- Integração com GitHub Actions
+- Implementação de Page Object Model
+- Uso de variáveis de ambiente protegidas
+- Inclusão de evidências de execução
 
 ---
 
